@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.object-cover {
+  object-fit: fill !important;
+}
+.bg-green-900_33 {
+  background-color: black;
+}
+.react-datepicker-wrapper .react-datepicker__input-container input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 0px;
+}
+.react-datepicker__day.react-datepicker__day--keyboard-selected {
+  background: none;
+  color: black;
+}
+input:focus,
+textarea:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+  --tw-ring-offset-width: none !important;
+}
+
+li:focus-visible {
+  outline: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.tab-panel--selected {
+  animation-name: tabPanel;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+@keyframes tabPanel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Input style */
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  position: absolute;
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.input-container input {
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.ps-menu-icon {
+  width: unset !important;
+  min-width: unset !important;
+  justify-content: start !important;
+  margin: 0 !important;
+}
+.ps-menu-button,
+.ps-menu-icon {
+  height: unset !important;
+}
+.ps-menu-button:hover {
+  background-color: unset !important;
+}
+.ps-sidebar-container,
+.ps-submenu-content {
+  background-color: transparent !important;
+}
+.ps-collapsed .ps-menu-icon {
+  min-width: 100% !important;
+  justify-content: center !important;
+}
+.ps-collapsed {
+  width: 80px !important;
+}
+.ps-sidebar-container,
+.ps-menu-root,
+.ps-menu-root > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ps-sidebar-root {
+  min-width: unset !important;
+  border: none !important;
+}
+.ps-collapsed,
+.ps-collapsed .ps-menu-root,
+.ps-collapsed .ps-menu-button {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: unset !important;
+  margin-right: unset !important;
+}
+.ps-collapsed ul {
+  align-items: center;
+}
+.ps-menu-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white_A700_3f_white_A700_3f_border {
+  border-image: linear-gradient(
+    270deg,
+    var(--white_A700_3f),
+    var(--white_A700_3f),
+    var(--white_A700_3f)
+  );
+}
+.green_A400_3f_lime_300_3f_border {
+  border-image: linear-gradient(
+    180deg,
+    var(--green_A400_3f),
+    var(--lime_300_3f)
+  );
+}
+.teal_400_lime_300_00_border {
+  border-image: linear-gradient(172deg, var(--teal_400), var(--lime_300_00));
+}
+.teal_400_lime_300_00_border2 {
+  border-image: linear-gradient(172deg, var(--teal_400), var(--lime_300_00));
+}
+.teal_700_lime_300_00_border {
+  border-image: linear-gradient(172deg, var(--teal_700), var(--lime_300_00));
+}
+.teal_400_lime_300_00_border3 {
+  border-image: linear-gradient(172deg, var(--teal_400), var(--lime_300_00));
+}
+.container {
+  background-color: black !important;
+}
+
+.blur-\[5\.00px\] {
+  --tw-blur: blur(5px);
+  filter: var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  border: 1px solid #28b6a2 !important;
+}
+.dream{
+  border: 1px solid #32D875 !important;
+}
+.font-normal {
+  font-weight: 400;
+  font-size: 16px;
+}
